@@ -13,6 +13,7 @@
 		EBCEFE7F2377CAFC00380402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCEFE7E2377CAFC00380402 /* Assets.xcassets */; };
 		EBCEFE822377CAFC00380402 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCEFE812377CAFC00380402 /* Preview Assets.xcassets */; };
 		EBCEFE852377CAFC00380402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBCEFE832377CAFC00380402 /* LaunchScreen.storyboard */; };
+		EBCEFE8D2377F73400380402 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCEFE8C2377F73400380402 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EBCEFE812377CAFC00380402 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBCEFE842377CAFC00380402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBCEFE862377CAFC00380402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCEFE8C2377F73400380402 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		EBCEFE772377CAFB00380402 /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
+				EBCEFE8C2377F73400380402 /* AddView.swift */,
 				EBCEFE782377CAFB00380402 /* AppDelegate.swift */,
 				EBCEFE7A2377CAFB00380402 /* SceneDelegate.swift */,
 				EBCEFE7C2377CAFB00380402 /* ContentView.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBCEFE8D2377F73400380402 /* AddView.swift in Sources */,
 				EBCEFE792377CAFB00380402 /* AppDelegate.swift in Sources */,
 				EBCEFE7B2377CAFB00380402 /* SceneDelegate.swift in Sources */,
 				EBCEFE7D2377CAFB00380402 /* ContentView.swift in Sources */,
